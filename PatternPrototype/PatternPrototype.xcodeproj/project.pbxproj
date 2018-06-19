@@ -13,11 +13,6 @@
 		946959F120D70073002A2E5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 946959F020D70073002A2E5B /* Assets.xcassets */; };
 		946959F720D70073002A2E5B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 946959F620D70073002A2E5B /* main.m */; };
 		94695A1C20D70115002A2E5B /* PrototypeViewWithText.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A1B20D70115002A2E5B /* PrototypeViewWithText.m */; };
-		94695A1F20D70136002A2E5B /* PrototypeViewWithButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A1E20D70136002A2E5B /* PrototypeViewWithButton.m */; };
-		94695A2220D7017F002A2E5B /* PrototypeViewWithTexts.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A2120D7017F002A2E5B /* PrototypeViewWithTexts.m */; };
-		94695A2520D70198002A2E5B /* PrototypeViewWithButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A2420D70198002A2E5B /* PrototypeViewWithButtons.m */; };
-		94695A2820D70200002A2E5B /* PrototypeViewEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A2720D70200002A2E5B /* PrototypeViewEmpty.m */; };
-		94695A2B20D7022D002A2E5B /* PrototypeViewWithImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 94695A2A20D7022D002A2E5B /* PrototypeViewWithImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,16 +46,6 @@
 		94695A0720D70073002A2E5B /* PatternPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PatternPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		94695A1A20D70115002A2E5B /* PrototypeViewWithText.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewWithText.h; sourceTree = "<group>"; };
 		94695A1B20D70115002A2E5B /* PrototypeViewWithText.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewWithText.m; sourceTree = "<group>"; };
-		94695A1D20D70136002A2E5B /* PrototypeViewWithButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewWithButton.h; sourceTree = "<group>"; };
-		94695A1E20D70136002A2E5B /* PrototypeViewWithButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewWithButton.m; sourceTree = "<group>"; };
-		94695A2020D7017F002A2E5B /* PrototypeViewWithTexts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewWithTexts.h; sourceTree = "<group>"; };
-		94695A2120D7017F002A2E5B /* PrototypeViewWithTexts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewWithTexts.m; sourceTree = "<group>"; };
-		94695A2320D70198002A2E5B /* PrototypeViewWithButtons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewWithButtons.h; sourceTree = "<group>"; };
-		94695A2420D70198002A2E5B /* PrototypeViewWithButtons.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewWithButtons.m; sourceTree = "<group>"; };
-		94695A2620D70200002A2E5B /* PrototypeViewEmpty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewEmpty.h; sourceTree = "<group>"; };
-		94695A2720D70200002A2E5B /* PrototypeViewEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewEmpty.m; sourceTree = "<group>"; };
-		94695A2920D7022D002A2E5B /* PrototypeViewWithImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewWithImage.h; sourceTree = "<group>"; };
-		94695A2A20D7022D002A2E5B /* PrototypeViewWithImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypeViewWithImage.m; sourceTree = "<group>"; };
 		94695A2C20D705C7002A2E5B /* PrototypeViewProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypeViewProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,16 +113,6 @@
 			children = (
 				94695A1A20D70115002A2E5B /* PrototypeViewWithText.h */,
 				94695A1B20D70115002A2E5B /* PrototypeViewWithText.m */,
-				94695A1D20D70136002A2E5B /* PrototypeViewWithButton.h */,
-				94695A1E20D70136002A2E5B /* PrototypeViewWithButton.m */,
-				94695A2020D7017F002A2E5B /* PrototypeViewWithTexts.h */,
-				94695A2120D7017F002A2E5B /* PrototypeViewWithTexts.m */,
-				94695A2320D70198002A2E5B /* PrototypeViewWithButtons.h */,
-				94695A2420D70198002A2E5B /* PrototypeViewWithButtons.m */,
-				94695A2620D70200002A2E5B /* PrototypeViewEmpty.h */,
-				94695A2720D70200002A2E5B /* PrototypeViewEmpty.m */,
-				94695A2920D7022D002A2E5B /* PrototypeViewWithImage.h */,
-				94695A2A20D7022D002A2E5B /* PrototypeViewWithImage.m */,
 				94695A2C20D705C7002A2E5B /* PrototypeViewProtocol.h */,
 			);
 			path = Prototypies;
@@ -272,15 +247,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				94695A1C20D70115002A2E5B /* PrototypeViewWithText.m in Sources */,
-				94695A2B20D7022D002A2E5B /* PrototypeViewWithImage.m in Sources */,
-				94695A2520D70198002A2E5B /* PrototypeViewWithButtons.m in Sources */,
 				946959E920D7006F002A2E5B /* ViewController.m in Sources */,
 				946959EF20D7006F002A2E5B /* PatternPrototype.xcdatamodeld in Sources */,
-				94695A1F20D70136002A2E5B /* PrototypeViewWithButton.m in Sources */,
-				94695A2220D7017F002A2E5B /* PrototypeViewWithTexts.m in Sources */,
 				946959F720D70073002A2E5B /* main.m in Sources */,
 				946959E620D7006F002A2E5B /* AppDelegate.m in Sources */,
-				94695A2820D70200002A2E5B /* PrototypeViewEmpty.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

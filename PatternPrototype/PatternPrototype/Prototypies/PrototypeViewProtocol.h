@@ -9,6 +9,6 @@
 
 @protocol PrototypeViewProtocol
 
-+ (id<PrototypeViewProtocol>)clone;
+- (id<PrototypeViewProtocol>)clone;
 
 @end

@@ -19,6 +19,20 @@
 
 @implementation PrototypeViewWithText
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self)
+    {
+        _label = [[UILabel alloc]initWithFrame:CGRectMake(20, 50, 150, 60)];
+        _label.numberOfLines = 0;
+        _label.text = @"text";
+        [self addSubview:_label];
+    }
+    return self;
+}
+
+
 - (instancetype)initWithText:(NSString *)string
 {
     self = [super init];
@@ -34,9 +48,9 @@
 
 
 
-+ (id<PrototypeViewProtocol>)clone
+- (id<PrototypeViewProtocol>)clone
 {
-    return [[PrototypeViewWithText alloc] initWithText:@"text"];
+    return [[PrototypeViewWithText alloc] initWithText:self.label.text];
 }
 
 @end
